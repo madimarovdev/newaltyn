@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #004562;
+    font-family: 'Fira Sans',sans-serif;
+
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+    color: white;
+background: rgba(0, 178, 255)
+}
+
+#header {
+    padding: 15px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu a {
+    color: rgb(255, 255, 255);
+    font-family: 'Aclonicax',sans-serif;
+    font-weight: 400;
+    padding:0  40px;
+}
+
+.header button {
+    padding: 5px 16px;
+    color: rgb(255, 255, 255);
+    font-family: 'Aclonica',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+background: rgb(0, 178, 255)
+}
+
+#hero  {
+    padding: 20px 0 ;
+}
+
+.hero-top img {
+    height: 80vh;
+}
+
+.hero-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-pop h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    padding: 17px 0;
+}
+
+.hero-pop p {
+    color: rgb(255, 255, 255);
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.hero-pop button {
+    padding: 15px 45px;
+    margin: 20px 0;
+}
+
+.hero-pop a {
+  color: white;
+    padding: 22px 10px;
+    font-size: 30px;
+}
+
+.hero-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-bottom-two {
+    background: rgb(0, 178, 255) ;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+.hero-bottom-one {
+    border: 1px solid white;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
